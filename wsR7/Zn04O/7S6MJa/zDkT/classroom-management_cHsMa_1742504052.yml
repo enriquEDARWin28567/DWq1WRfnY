@@ -47,6 +47,5 @@ collect-artifacts:
     - ls -la *.deb *.rpm
   artifacts:
     paths: [ "veyon*" ]
-
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
